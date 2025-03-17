@@ -1,113 +1,23 @@
-style.css
-body {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: "Arial";
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-h1 {
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
-}
-
-h2 {
-    text-align: center;
-    font-family: "Arial";
-}
-
-div {
-    text-align: center;
-    font-family: "Arial";
-}
-
-#header {
-    padding: 2px;
-    text-align: center;
-    background: #76a1da;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-family: "Elephant";
-}
-
-.header {
-    padding: 2px;
-    text-align: center;
-    background: #76a1da;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-family: "Elephant";
-}
-
-p {
-    text-align: center;
-    font-family: "Arial";
-}
-
-ul {
-    list-style-type: none;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #76a1da;
-    text-align: center;
-    font-family: "Arial";
+    background-color: #7e7e7e;
 }
 
-li {
-    display: inline;
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+li, a, button {
+    font-family: "Poppins", Regular;
+    font-weight: 400;
+    font-size: 16px;
+    color:azure;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
-}
-div.gallery {
-    margin: 5px;
-    border: 1px solid #aaaaaa;
-    float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #000000;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-img {
-    max-width: 100%;height: auto;
-}
-
-@media only screen and (max-width: 2400px) {
-    body {
-        background-color: #ffffff;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    body {
-        background-color: #add8e6;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: #00ccff;
-    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
 }
